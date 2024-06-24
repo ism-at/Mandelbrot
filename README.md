@@ -18,7 +18,17 @@ This project visualizes the Mandelbrot Set using Java Swing for GUI and parallel
    ```sh
    git clone https://github.com/your-username/MandelbrotSetVisualization.git
    
+2. Go to path of Project:
+   ```sh
+   cd
+
+3. Build the project:
+   ```sh
+   mvn clean install
+   
 2. Run the Application
+   ```sh
+   mvn exec:java -Dexec.mainClass="MandelbrotSetVisualization.Main"
 
 4. Interact with the Visualization:
    ```sh
